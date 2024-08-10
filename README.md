@@ -26,5 +26,4 @@ open index.html
 ---
 
 Thank you for visiting this project!
-```
 
