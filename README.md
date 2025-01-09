@@ -12,10 +12,7 @@ Hello! This repository contains my personal portfolio page, built with HTML. The
 
 After cloning the project to your local machine, you can open the HTML file in your browser to view the page:
 
-```bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
-```
+
 
 To open the HTML file in your browser:
 
