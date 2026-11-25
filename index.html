@@ -1,44 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-B35WG3NKV5"></script>
         <meta property="title" content="amonDeusS - Official Page" />
         <meta name="description" content="amondeuss, AMONDEUSS">
         <meta name="keywords" content="amondeuss, AMONDEUSS">
         
         <title>amonDeusS - Official Page</title>
-        <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="astyle.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="astyle.css?v=projects-1">
     </head>
-    <body>
+    <body class="portfolio-page">
         <div class="bezel">
-            <div class="screen output">
+            <main class="screen output">
+                <div class="portfolio-content">
                 <pre class="banner" aria-hidden="true">
-
-
              __  __    ____    _   _   _____    ______   _    _    _____    _____ 
      /\     |  \/  |  / __ \  | \ | | |  __ \  |  ____| | |  | |  / ____|  / ____|
     /  \    | \  / | | |  | | |  \| | | |  | | | |__    | |  | | | (___   | (___  
    / /\ \   | |\/| | | |  | | | . ` | | |  | | |  __|   | |  | |  \___ \   \___ \ 
   / ____ \  | |  | | | |__| | | |\  | | |__| | | |____  | |__| |  ____) |  ____) |
  /_/    \_\ |_|  |_|  \____/  |_| \_| |_____/  |______|  \____/  |_____/  |_____/ .github
-                                                                                                                                                 
                 </pre>
-                <nav><a class="current-menu-item" href="/">Main</a><a href="/index3.html">Contact</a><a href="https://github.com/amonDeusS">GitHub</a></nav>
-                <header>Hello and Welcome</header>
-                <article>
-                    <p>This page is designed as a portfolio where you can explore my skills and the projects I’ve been working on. 
-                        From web development to cybersecurity, mobile apps to personal endeavors, you’ll find a variety of work showcased here.
+                <nav class="portfolio-nav" aria-label="Main navigation">
+                    <a class="current-menu-item" href="/" aria-current="page">Main</a>
+                    <a href="#projects">Projects</a>
+                    <a href="/index3.html">Contact</a>
+                    <a href="https://github.com/amonDeusS">GitHub</a>
+                </nav>
 
-<p>Feel free to explore my projects using the buttons above or reach out to connect with me.</p>
-</p>
+                <header class="portfolio-intro">
+                    <h1>Hello and welcome</h1>
+                    <p>I build mobile apps, web experiences, and security tools. Explore a selection of my projects below.</p>
+                </header>
 
+                <section id="projects" class="projects" aria-labelledby="projects-heading">
+                    <h2 id="projects-heading">Projects</h2>
+                    <div class="project-list">
+                        <article class="project-row" aria-labelledby="komsukomsu-title">
+                            <div class="project-illustration">
+                                <svg viewBox="0 0 128 128" width="96" height="96" aria-hidden="true" focusable="false">
+                                    <path d="M8 43 28 25 48 43M14 40v39h28V40M24 79V62h10v17" />
+                                    <path d="m80 43 20-18 20 18M86 40v39h28V40M96 79V62h10v17" />
+                                    <path d="M49 32h28m-6-6 6 6-6 6M79 96H49m6-6-6 6 6 6" />
+                                    <path d="m51 64 13-7 13 7v20H51ZM51 64l13 7 13-7M64 71v13" />
+                                    <path class="illustration-detail" d="M14 108h100" />
+                                </svg>
+                            </div>
+                            <div class="project-details">
+                                <h3 id="komsukomsu-title" class="project-title">KomşuKomşu</h3>
+                                <p class="project-description">A hyperlocal marketplace for renting items and finding services nearby.</p>
+                                <p class="project-technologies">Flutter <span aria-hidden="true">·</span> Go <span aria-hidden="true">·</span> PostgreSQL</p>
+                            </div>
+                            <a class="project-link" href="https://komsukomsu.tech" target="_blank" rel="noopener noreferrer" aria-label="Visit KomşuKomşu website (opens in a new tab)">Visit website <span aria-hidden="true">↗</span></a>
+                        </article>
 
-                </article>
-                <footer>
+                        <article class="project-row" aria-labelledby="sherlock-title">
+                            <div class="project-illustration">
+                                <svg viewBox="0 0 128 128" width="96" height="96" aria-hidden="true" focusable="false">
+                                    <path d="M34 50V18h39l15 15v20M73 18v15h15" />
+                                    <path class="illustration-detail" d="M45 43h23M45 54h16" />
+                                    <path d="M12 52V35h22M12 52h82l-9 52H24Z" />
+                                    <circle class="illustration-cutout" cx="89" cy="78" r="19" />
+                                    <path d="m103 92 15 15" />
+                                    <path class="illustration-detail" d="M81 76a8 8 0 0 1 8-8" />
+                                </svg>
+                            </div>
+                            <div class="project-details">
+                                <h3 id="sherlock-title" class="project-title">Arşiv <span class="project-alias">(Sherlock)</span></h3>
+                                <p class="project-description">An online mystery game featuring solo and cooperative investigations, shared clues, and persistent progress.</p>
+                                <p class="project-technologies">Next.js <span aria-hidden="true">·</span> TypeScript <span aria-hidden="true">·</span> Supabase</p>
+                            </div>
+                            <a class="project-link" href="https://patrickjanecase.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="Play Arşiv demo (opens in a new tab)">Play demo <span aria-hidden="true">↗</span></a>
+                        </article>
+
+                        <article class="project-row" aria-labelledby="kasa-title">
+                            <div class="project-illustration">
+                                <svg viewBox="0 0 128 128" width="96" height="96" aria-hidden="true" focusable="false">
+                                    <rect x="17" y="25" width="82" height="69" rx="5" />
+                                    <circle cx="77" cy="43" r="7" />
+                                    <path d="m25 78 20-23 17 16 11-11 18 20" />
+                                    <rect class="illustration-cutout" x="72" y="73" width="35" height="31" rx="4" />
+                                    <path d="M80 73v-9a9.5 9.5 0 0 1 19 0v9" />
+                                    <circle cx="89.5" cy="86" r="2" />
+                                    <path d="M89.5 88v6" />
+                                </svg>
+                            </div>
+                            <div class="project-details">
+                                <h3 id="kasa-title" class="project-title">Kasa</h3>
+                                <p class="project-description">An offline Android photo and video vault with PIN protection and on-device storage.</p>
+                                <p class="project-technologies">Flutter <span aria-hidden="true">·</span> Dart <span aria-hidden="true">·</span> Android</p>
+                            </div>
+                        </article>
+
+                        <article class="project-row" aria-labelledby="hodor-title">
+                            <div class="project-illustration">
+                                <svg viewBox="0 0 128 128" width="96" height="96" aria-hidden="true" focusable="false">
+                                    <path d="m64 15 40 16v29c0 27-17 43-40 53-23-10-40-26-40-53V31Z" />
+                                    <path d="m48 52 31-2M47 57l14 20M80 54 69 77" />
+                                    <circle cx="43" cy="52" r="6" />
+                                    <circle cx="85" cy="49" r="6" />
+                                    <circle cx="65" cy="82" r="6" />
+                                    <path class="illustration-detail" d="M43 38v-5M96 49h5M65 94v6" />
+                                </svg>
+                            </div>
+                            <div class="project-details">
+                                <h3 id="hodor-title" class="project-title">Hodor</h3>
+                                <p class="project-description">A security MVP combining Linux host activity and managed-agent events into an evidence-driven investigation workflow.</p>
+                                <p class="project-technologies">Go <span aria-hidden="true">·</span> React <span aria-hidden="true">·</span> PostgreSQL</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <footer class="portfolio-footer">
                     &copy;amonDeusS - Published 12.01.2025<span class="blinky" aria-hidden="true">_</span>
                 </footer>
-            </div>
-            <div class="screen scanlines"></div>
+                </div>
+            </main>
+            <div class="screen scanlines" aria-hidden="true"></div>
         </div>
     </body>
 </html>
